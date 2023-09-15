@@ -1,0 +1,162 @@
+font {
+    font-family: sans-serif;
+    color: white;
+}
+
+#menu {
+    margin-top: 1.5%;
+}
+
+.menustuff {
+    color: white;
+    padding: 14px 90px;
+    border-right: 1px solid white;
+
+}
+
+#drugs {
+    color: white
+}
+
+body {
+    background: linear-gradient(to left top, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+    url(nashimages/kermit\ the\ frog.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#aTITLE {
+    margin-top: 1.5%;
+}
+
+#bTitle {
+    font-size: 200px;
+}
+
+
+
+.menustuff:hover {
+    animation-name: myHover;
+    animation-duration: 1s;
+}
+
+a {
+    text-decoration: none;
+}
+
+#content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+#informationalvideo {
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-10%);
+    text-align: center;
+}
+
+#aButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#bButton {
+    background: none;
+    padding: 15px;
+    border-style: solid;
+    border-radius: 0px;
+    border-color: white;
+    color: white;
+    text-transform: uppercase;
+    width: 125px;
+    cursor: pointer;
+    
+}
+
+#aButton:hover{
+    animation-name: myHubert;
+    animation-duration: 1s;
+}
+
+#bButton:hover{
+    animation-name: myHubert;
+    animation-duration: 1s;
+}
+
+
+
+@keyframes myHover {
+    from {
+        color: white;
+    
+    }
+
+    to {
+        color: red;
+    }
+}
+
+@keyframes myHubert {
+    from {background: none;}
+
+    to {
+        background-color: white;
+        color: black;
+    }
+}
+
+#goals {
+    list-style-type: circle;
+}
+
+@keyframes myHubert2 {
+    from {
+        color: white;
+        transform: translateX(0px);}
+
+    to {
+        color: white;
+        transform: translateX(20px);}
+}
+
+#lists1, #lists2, #lists3, #lists4 {
+    overflow: hidden;
+    position: relative;
+    padding: 10px;
+}
+
+#lists1:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
+
+#lists2:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
+
+#lists3:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
+
+#lists4:hover {
+    animation-name: myHubert2;
+    animation-duration: 1s;
+}
+
